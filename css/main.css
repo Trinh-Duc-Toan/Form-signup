@@ -1,0 +1,186 @@
+body{
+    background-image: url(./img/bg.jpg);
+    position: relative;
+}   
+
+/* .iot{
+    color: #fff;
+    display: inline;
+    font-size: 52px;
+    float: left;
+
+} */
+
+.table-login{
+    width: 500px;
+    height: 650px;
+    background-color: #032b5c;
+    position: absolute;
+    float: right;
+    right: 150px;
+    top: 75px;
+    border-radius: 8px;
+    box-shadow: 8px 8px rgba(0, 0, 0, 0.2);
+}
+
+.avt{
+    width: 200px;
+    margin-left: 150px;
+}
+
+
+.first{
+    margin-top: 40px;
+}
+
+.form-group{
+    border-bottom: 1px solid #ccc;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 60px;
+}
+.form-group i{
+    color: #ccc;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+.form-input{
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+    margin-top: 40px;
+}
+.form-input::placeholder{
+    color: #f5f5f5;
+}
+#eye i{
+    padding-right: 0;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.infor{
+    padding-bottom: 6px;
+    margin-top: 40px;
+}
+
+.select{
+    margin-left: 100px;
+    display: block;
+    font-size: 16px;
+    color: #444;
+    height: 10px;
+    width: 50px;
+}
+
+.forget{
+    color: #ccc;
+    margin-left: 100px;
+    margin-top: 20px    ;
+}
+
+.login{
+    color: #ccc;
+    font-size: 20px;
+    background-color: #436c9e;
+    margin: 2e0px 60px 20px 100px ;
+    height: 36px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 20px;
+}
+
+.login:hover
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.google:hover,
+.facebook:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+.not{
+    display: inline;
+    color: #ccc;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.sign-up{
+    display: inline;
+    right: 100px;
+    color: orange;
+    text-decoration: none;
+}
+
+.sign-up:hover{
+    color: rgb(244, 92, 11);
+    font-style: italic;
+    cursor: pointer;
+}   
+
+.google{
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 56px;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-top: 36px;
+    background-color: #032b5c;
+}
+
+.google .text-gg{
+    color: #ccc;
+    display: inline;
+    float: right;   
+    margin-top: 18.5px;
+    margin-right: 28px;
+}
+
+.google .gg{
+    width: 36px;
+    height: 36px;
+    margin: 10px 0 10px 8px;
+} 
+
+.facebook{
+    border: 1px solid #ccc;
+    width: 220px;
+    height: 56px;
+    border-radius: 8px;
+    float: right;
+    margin-top: -58px;
+    margin-right: 10px;
+    background-color: #032b5c;
+}
+
+.facebook .fb{
+    width: 36px;
+    height: 36px;
+    margin: 10px 0 10px 8px
+}
+
+.facebook .text-fb{
+    color: #ccc;
+    display: inline;
+    float: right;   
+    margin-top: 18.5px;
+    margin-right: 28px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+.choose{
+    color: #ccc;
+    margin-top: 30px;
+    margin-left: 100px;
+}
